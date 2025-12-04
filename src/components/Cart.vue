@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCartStore } from "../stores/CartStore";
+import { useCartStore } from "../stores/cartStore";
 
 const cartStore = useCartStore();
 const emit = defineEmits(["checkout"]);

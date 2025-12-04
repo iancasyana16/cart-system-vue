@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import { useCartStore } from "./stores/CartStore";
+import { useCartStore } from "./stores/cartStore";
 
 import Cart from "./components/Cart.vue";
 import InvoiceModal from "./components/InvoiceModal.vue";

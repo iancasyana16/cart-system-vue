@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCartStore } from "../stores/CartStore";
+import { useCartStore } from "../stores/cartStore";
 import { computed } from "vue";
 
 const emit = defineEmits(["close", "bill"]);
